@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="159054" started-at="2020-04-08T09:01:56Z" finished-at="2020-04-08T09:04:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="159054" started-at="2020-04-08T09:01:56Z" finished-at="2020-04-08T09:04:35Z">
+      <class name="com.data.widget.test.Testsuite">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.data.widget.test.Testsuite@58651fd0]" name="Setup" is-config="true" duration-ms="509" started-at="2020-04-08T14:31:56Z" finished-at="2020-04-08T14:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="dealerTest(java.util.LinkedList)[pri:0, instance:com.data.widget.test.Testsuite@58651fd0]" name="dealerTest" duration-ms="147754" started-at="2020-04-08T14:32:06Z" data-provider="data-provider" finished-at="2020-04-08T14:34:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[com.data.widget.excelUtils.DataPojoClass@35e2d654, com.data.widget.excelUtils.DataPojoClass@1bd4fdd, com.data.widget.excelUtils.DataPojoClass@55183b20, com.data.widget.excelUtils.DataPojoClass@4f83df68, com.data.widget.excelUtils.DataPojoClass@6cf0e0ba, com.data.widget.excelUtils.DataPojoClass@7d8995e, com.data.widget.excelUtils.DataPojoClass@130d63be, com.data.widget.excelUtils.DataPojoClass@42a48628, com.data.widget.excelUtils.DataPojoClass@293a5bf6, com.data.widget.excelUtils.DataPojoClass@6aeb35e6]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dealerTest -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.data.widget.test.Testsuite@58651fd0]" name="terminateBrowser" is-config="true" duration-ms="1404" started-at="2020-04-08T14:34:34Z" finished-at="2020-04-08T14:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.data.widget.test.Testsuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
